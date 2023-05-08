@@ -1,0 +1,355 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100%;
+    height: 500px;
+}
+.nav nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+.nav p{
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.nav nav .right{
+    display: flex;
+}
+.nav .logo{
+    text-align: center;
+}
+.nav .logo img{
+    width: 30%;
+    margin-top: 80px;
+}
+.nav .input{
+    text-align: center;
+}
+.nav .input input{
+    width: 600px;
+    height: 10px;
+    padding: 22px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+.nav .text {
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 24px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 110px;
+   /* padding-left: 110px;
+    padding-right: 110px;*/
+}
+.cards .crd{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(216, 193, 240);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transform: transform 930ms ease-in-out;
+    transition-duration: .4s;
+    transition-delay: .5s;
+}
+.cards .crd img{
+    width: 360px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 75% 40%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+   
+}
+.cards .crd:hover{
+    transform: scale(1.06);
+}
+.cards .crd h3{
+    background-color: white;
+}
+.cards .crd p{
+    background-color: white;
+    margin: 10px;
+}
+.para{
+    margin-left: 117px;
+    margin-top: 80px;
+    margin-bottom: 22px;
+}
+.colect{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-right: 110px
+    
+}
+.colect .clt{
+    position: relative;
+    width: 275px;
+    height: 310px;
+    text-align: left;
+    color: white;
+}
+.colect .gradient{
+    width: 275px;
+    height: 310px;
+    position: absolute;
+    border-radius: 6px;
+    margin: 5px;
+    background-image: linear-gradient(to top, black, transparent);
+}
+.colect .clt img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+    margin: 5px;
+    
+    
+}
+.colect .gradient{
+    transition: transform .2s;
+}
+
+
+.colect .gradient:hover{
+    /*-ms-transform: scale(1.05);
+    -webkit-transform: scale(1.2);*/
+    transform: scale(1.05);
+}
+
+.cont{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.Popular{
+    margin-left: 110px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.container-box{
+    margin-left: 110px;
+    margin-right: 110px;
+    justify-content: center;
+    justify-content: space-around;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#icon{
+    font-size: 20px;
+}
+.element{
+    position: relative;
+    width: 320px;
+    height: 38px;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px rgb(209, 206, 206);
+    opacity: .8;
+}
+.element:hover{
+    box-shadow: 1px 1px rgb(203, 203, 212);
+}
+.boxes1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+}
+.element1{
+    position: relative;
+    width: 320px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 20px;
+    border: solid 1px rgb(209, 206, 206);
+    opacity: .8;
+}
+.boxes2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.element p{
+    padding-bottom: 3px;
+}
+.element1 p{
+    padding-bottom: 3px;
+}
+.element #icon{
+    position: absolute;
+    right: 16px;
+    bottom: 35%;
+}
+
+.element1 #icon{
+    position: absolute;
+    right: 16px;
+    bottom: 35%;
+}
+.element1:hover{
+    box-shadow: 1px 1px rgb(203, 203, 212);
+}
+.labelClass{
+    width: 100%;
+    height: 389px;
+    margin-top: 80px;
+    position: relative;
+}
+.background{
+    width: 100%;
+    height: 389px;
+    position: absolute;
+    display: block;
+    background-color: rgb(235, 188, 188);
+    opacity: .2;
+}
+.labelClass .form{
+    position: absolute;
+    left: 594px;
+    top: 228px;
+}
+.labelClass .search input{
+    width: 260px;
+    position: absolute;
+    padding: 16px;
+    border-radius: 6px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+}
+.labelClass .button1{
+    position: absolute;
+    left: 895px;
+    top: 265px;
+    width: 150px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.phone img{
+    position: absolute;
+    top: 124px;
+    left: 298px;
+    width: 270px;
+    height: 266px;
+}
+.phoneText{
+    position: absolute;
+    left: 594px;
+    top: 87px;
+}
+.phoneText h1{
+    padding-bottom: 30px;
+}
+.phoneText p{
+    padding-bottom: 18px;
+}
+.discontainer{
+    margin-top: 100px;
+}
+.discontainer h1{
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.discrip{
+    margin-left: 110px;
+    margin-right: 110px;
+    position: relative;
+    
+}
+.discrip #dis{
+    border: solid 1px rgb(207, 203, 203);
+    border-radius: 6px;
+    padding: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.discrip span{
+    position: absolute;
+    right: 20px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.footer img{
+    margin-left: 110px;
+    width: 140px;
+    position: absolute;
+    top: 60px;
+}
+.footer .footEle{
+    margin-left: 110px;
+    display: flex;
+    position: absolute;
+    top: 140px;
+}
+.footer .bg{
+    width: 100%;
+    height: 600px;
+    display: block;
+    background-color: rgb(214, 210, 212);
+    opacity: .1;
+}
+.footer .paragraph{
+    position: absolute;
+    bottom: 20px;
+}
+.footer .footEle .footElement{
+    margin-right: 60px;
+
+}
+.footer .footEle .footElement p{
+    padding: 10px;
+}
+.footElement #footHead{
+    padding-bottom: 20px;
+}
+.paragraph{
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-top: 20px;
+    border-top: solid 1px rgb(187, 183, 183);
+}
+
